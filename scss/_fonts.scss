@@ -1,0 +1,35 @@
+/* ======Підключення вручну======= */
+/* Шрифт № 1 */
+@font-face {
+	font-family: 'causten-semi-bold';
+	src:
+		url("..//fonts/causten-semi-bold.woff2") format("woff2"),
+		url("..//fonts/causten-semi-bold.woff") format("woff");
+	wont-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Шрифт № 2 */
+@font-face {
+	font-family: 'CoreSansC-500';
+	src:
+		url("..//fonts/CoreSansC-55Medium.woff2") format("woff2"),
+		url("..//fonts/CoreSansC-55Medium.woff") format("woff");
+	wont-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'CoreSansC-800';
+	src:
+		url("..//fonts/CoreSansC-85Heavy.woff2") format("woff2"),
+		url("..//fonts/CoreSansC-85Heavy.woff") format("woff");
+	wont-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+//------------------------------
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800&display=swap');
