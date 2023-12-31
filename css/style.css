@@ -161,17 +161,11 @@ textarea {
 .hero {
   position: relative;
   padding: 129px 0 132px 0px;
-  height: 100vh;
+  height: 100svh;
   background-image: url(../img/shop-hero-1.webp);
   background-repeat: no-repeat;
   background-position: top right;
   background-size: cover;
-}
-@media (max-width: 540px) {
-  .hero {
-    height: 65vh;
-    padding: 20px 0 20px 0px;
-  }
 }
 .hero__text {
   padding: 30px 87px 30px 87px;
