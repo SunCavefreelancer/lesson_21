@@ -1,16 +1,46 @@
 /* ======Підключення вручну======= */
 /* Шрифт № 1 */
 @font-face {
+	font-family: 'causten-medium';
+	src:
+		url("..//fonts/causten-medium.woff2") format("woff2"),
+		url("..//fonts/causten-medium.woff") format("woff");
+	wont-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
 	font-family: 'causten-semi-bold';
 	src:
 		url("..//fonts/causten-semi-bold.woff2") format("woff2"),
 		url("..//fonts/causten-semi-bold.woff") format("woff");
+	wont-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'causten-bold';
+	src:
+		url("..//fonts/causten-bold.woff2") format("woff2"),
+		url("..//fonts/causten-bold.woff") format("woff");
 	wont-weight: 700;
 	font-style: normal;
 	font-display: swap;
 }
 
 /* Шрифт № 2 */
+@font-face {
+	font-family: 'CoreSansC-65Bold';
+	src:
+		url("..//fonts/CoreSansC-65Bold.woff2") format("woff2"),
+		url("..//fonts/CoreSansC-65Bold.woff") format("woff");
+	wont-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
 @font-face {
 	font-family: 'CoreSansC-500';
 	src:
