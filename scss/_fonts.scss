@@ -1,6 +1,17 @@
 /* ======Підключення вручну======= */
 /* Шрифт № 1 */
 @font-face {
+	font-family: 'causten-light';
+	src:
+		url("..//fonts/causten-light.woff2") format("woff2"),
+		url("..//fonts/causten-light.woff") format("woff");
+	wont-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+@font-face {
 	font-family: 'causten-medium';
 	src:
 		url("..//fonts/causten-medium.woff2") format("woff2"),
