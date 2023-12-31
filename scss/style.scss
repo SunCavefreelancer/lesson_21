@@ -854,11 +854,13 @@
 		gap: 50px;
 		@media (max-width:992px){
 			grid-template-columns: repeat(3, 1fr);
+			column-gap: 50px;
+			row-gap: 25px;
 		}
 		@media (max-width:767px){
 			grid-template-columns: repeat(2, 1fr);
 		}
-		@media (max-width:500px){
+		@media (max-width:540px){
 			grid-template-columns: repeat(1, 1fr);
 		}
 	}
@@ -872,7 +874,8 @@
 
 	// .man__img    //foto (a)			
 	&__ {
-
+		display: block;
+	}
 		&__img img {	//foto
 			width: 100%;
 			height: 100%;
@@ -881,7 +884,7 @@
 			transition: 0.4s;
 			margin-bottom: 15px;
 		}
-	}
+	
 
 
 	// .man__text
@@ -907,6 +910,10 @@
 		line-height: 157%;
 		letter-spacing: -0.715px;
 		margin-bottom: 5px;
+		transition: 0.4s;
+		&:hover {
+			color: #8A33FD;
+		}
 	}
 
 	// .man__sub-title
@@ -924,6 +931,10 @@
 	&__right {
 		justify-self: center;
 		align-self: center;
+		transition: 0.5s;
+		&:hover {
+			transform: translateY(5px);
+		}
 	}
 }
 
@@ -970,15 +981,18 @@
 	// .women__cards
 	&__cards {
 		display: grid;
+		//grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
 		grid-template-columns: repeat(4, 1fr);
 		gap: 50px;
-		@media (max-width:1200px){
-			grid-template-columns: repeat(3, 1fr);
-		}
 		@media (max-width:992px){
-			grid-template-columns: repeat(2, 1fr);
+			grid-template-columns: repeat(3, 1fr);
+			column-gap: 50px;
+			row-gap: 25px;
 		}
 		@media (max-width:767px){
+			grid-template-columns: repeat(2, 1fr);
+		}
+		@media (max-width:540px){
 			grid-template-columns: repeat(1, 1fr);
 		}
 
@@ -995,18 +1009,25 @@
 	}
 	// .women_img//foto (a)
 	&__img {
-		margin-bottom: 15px;
-		display: inline-block;
-		&__img img {	//foto
+		display: block;
+	}
+	&__img img {	//foto
 			width: 100%;
 			height: 100%;
 			object-fit: cover;
 			border-radius: 10px;
 			aspect-ratio: 270 / 393;
 			transition: 0.4s;
-
+			margin-bottom: 15px;
+			transition: 0.5s;
+			&:hover {
+				transform: translateY(5px);
 			}
-		}
+			}
+		
+	}
+
+	.women {
 
 	// .women_text
 	&__text {		
@@ -1031,6 +1052,11 @@
 		line-height: 157%;
 		letter-spacing: -0.715px;
 		margin-bottom: 5px;
+		transition: 0.5s;
+		&:hover {
+			color: #8A33FD;
+			cursor: pointer;
+		}
 	}
 
 	// .women__sub-title
@@ -1048,5 +1074,10 @@
 	&__right {
 		justify-self: center;
 		align-self: center;
+		transition: 0.4s;
+		&:hover {
+			transform: translateY(5px);
+			cursor: pointer;
+		}
 	}
 }
