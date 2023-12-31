@@ -986,13 +986,13 @@
 
 	// .women__item
 	&__item {
-/* 		min-height: 100%;
-		overflow: hidden; */
+		min-height: 100%;
+		overflow: hidden;
 		&>*:last-child {
 			margin-bottom: 0;
 		}
 	
-
+	}
 	// .women_img//foto (a)
 	&__img {
 		margin-bottom: 15px;
@@ -1016,7 +1016,7 @@
 
 	// .women_left
 	&__left {
-		//flex-grow: 1;
+		flex-grow: 1;
 		&>*:last-child {
 			margin-bottom: 0;
 		}
@@ -1049,5 +1049,4 @@
 		justify-self: center;
 		align-self: center;
 	}
-}
 }
